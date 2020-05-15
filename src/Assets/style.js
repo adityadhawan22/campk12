@@ -670,10 +670,10 @@ export const SlideInner = styled.div`
     padding: 23px 0;
     font-size: 19px;
     outline:0;
+    transition: all .5s ease;
 
     :hover{
         box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-        transition: all .5s ease;
     }
     @media screen and (max-width: 630px){
         padding: 23px 0;
