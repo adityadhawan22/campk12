@@ -49,9 +49,13 @@ const Dashboard = () => {
                     </PaddingWrapper>
                 </Container>
             </BannerWrapper>
-            <Sqwrapper>
-                <TabsComponent />
-            </Sqwrapper>
+            <div className="bg1">
+            <div className="container">
+                <Sqwrapper>
+                    <TabsComponent />
+                </Sqwrapper>
+            </div>
+            </div>
         </>
     );
 }

@@ -139,3 +139,7 @@ code {
     padding: 67px 0;
   }
 }
+.bg1{
+  background-image: linear-gradient(to bottom,#eef9ff -10%,#ade1ff);
+  width: 100%;
+}
