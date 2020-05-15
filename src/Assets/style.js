@@ -117,6 +117,7 @@ export const PaddingWrapper = styled.div`
         }
     }
     .subhead {
+        letter-spacing: 0.24px;
         text-align:left;
         color:#fff;
         line-height:34px;
