@@ -43,6 +43,14 @@ export const BannerWrapper = styled.div`
     min-height: 680px;
     position: relative;
     background-size: cover;
+    .order1 img{
+        max-width: 100%;
+        width: 462px;
+    }
+    .order1 {
+        justify-content: flex-end;
+        display: flex;
+    }
 &.inner {
     min-height:499px !important;
 }
@@ -51,8 +59,11 @@ export const BannerWrapper = styled.div`
     
 }
     @media (min-width: 980px){
+        .order1{
+            order: 1;
+        }
         .order2 {
-            order:2;
+            order: 0;
         }
     }
     &:before {
@@ -83,6 +94,8 @@ export const PaddingWrapper = styled.div`
         color:#fff;
         text-align:left;
         font-size:52px;
+        letter-spacing: 0.22px;
+        line-height: 1.15;
         font-weight: 500;
         @media screen and (max-width: 800px) {
             font-size:37px;
@@ -108,7 +121,7 @@ export const PaddingWrapper = styled.div`
         color:#fff;
         line-height:34px;
         font-size:22px;
-        font-weight: 300;
+        font-weight: 400;
         @media screen and (max-width: 630px){
             font-size: 20px;
         }
@@ -343,6 +356,7 @@ export const Footer = styled.div`
 export const CardWrap = styled.div`
     width: 208px;
     height: 228px;
+    outline: 0;
    
     
     .SampleText {
@@ -372,9 +386,13 @@ export const SliderWrap = styled.div`
         background:transparent;
     }
     .card-body {
+        outline: 0;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.02);
         padding-right: 0;
         margin-right: 12px;
+    }
+    .slick-list{
+        padding-bottom: 26px;
     }
     .slick-slider {
         z-index:2;
@@ -531,11 +549,14 @@ export const FlexWrapper = styled.div`
     display: flex;
     justify-content: center;
     .nav-item {
+        font-weight: 600;
+        font-size: 13px;
         border-radius: 4px 0 0 4px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
-        border: solid 1px #d8e4eb;
+        /* border: solid 1px #d8e4eb; */
         background-color: #ffffff;
         .nav-link  {
+            color: #69696a;
             padding: 10px 30px;
             @media screen and (max-width: 767px){
                 padding: 10px 9px;
@@ -544,7 +565,10 @@ export const FlexWrapper = styled.div`
                 font-size: 12px;
             }
             &.active {
-                border-radius: 0;
+                color: white;
+                /* border-radius: 0; */
+                border-radius: inherit;
+                /* border-radius: 4px 0px 0px 4px; */
             }
         }
         &:nth-child(2) {
@@ -592,6 +616,7 @@ export const RCardWrap = styled.div`
             margin-right: 25px;
             margin-bottom: 0;
             margin-top: 10px;
+            font-weight: 600;
             span {
                 color:#353f66;
                 margin-left:5px;
@@ -642,6 +667,14 @@ export const RCardWrap = styled.div`
 export const SlideInner = styled.div`
     background:#ffffff;
     min-height:228px;
+    padding: 23px 0;
+    font-size: 19px;
+    outline:0;
+
+    :hover{
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        transition: all .5s ease;
+    }
     @media screen and (max-width: 630px){
         padding: 23px 0;
     }

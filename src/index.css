@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 body {
   font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,10 +17,13 @@ code {
 }
 .normal {
   background-color: #2886ee;
-  box-shadow: 0 2px 4px rgba(0,0,0,.43);
+  box-shadow: 0 2px 18px rgba(0,0,0,.09);
 }
 .navbar-brand img {
   width:115px;
+}
+.navbar-nav{
+  font-weight: 500;
 }
 .navbar-nav a{
   color: #ffffff !important;
