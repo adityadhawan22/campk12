@@ -654,6 +654,7 @@ export const RCardWrap = styled.div`
         letter-spacing:2px;
         margin: auto;
         font-weight: 600;
+        text-transform: uppercase;
         text-align: center;
         display: block;
     }

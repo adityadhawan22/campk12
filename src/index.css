@@ -89,6 +89,9 @@ code {
   text-align: center;
   float: left;
   margin-top: 32px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 .learnMore:hover {
   text-decoration: none !important;
