@@ -486,7 +486,7 @@ export const BannerCard = styled.div`
 export const TabsWrapper = styled.div`
     background:#fff;
     min-height:250px;
-    width:90%;
+    width:100%;
     border-radius: 4px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
     margin:auto;
@@ -653,6 +653,7 @@ export const RCardWrap = styled.div`
     .learnMore {
         letter-spacing:2px;
         margin: auto;
+        font-weight: 600;
         text-align: center;
         display: block;
     }

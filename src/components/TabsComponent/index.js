@@ -31,7 +31,7 @@ const TabsComponent = () => {
             <Tab.Content>
                 <Tab.Pane eventKey="first">
                     <FilterWrapper>
-                      <p>Showing All courses for Grades 1-4</p>
+                      <p>Showing all courses for grades 1-4</p>
                       <DropdownButton className="fliterDrop" id="dropdown-item-button" title="All Courses">
                         <Dropdown.Item as="button">Action</Dropdown.Item>
                         <Dropdown.Item as="button">Another action</Dropdown.Item>
@@ -126,7 +126,7 @@ const TabsComponent = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
                 <FilterWrapper>
-                      <p>Showing All courses for Grades 5-8</p>
+                      <p>Showing all courses for grades 5-8</p>
                       <DropdownButton className="fliterDrop" id="dropdown-item-button" title="All Courses">
                         <Dropdown.Item as="button">Action</Dropdown.Item>
                         <Dropdown.Item as="button">Another action</Dropdown.Item>
