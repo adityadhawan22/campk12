@@ -20,6 +20,7 @@ const BannerComponent = () => {
                       
                     </Row>
                 </PaddingWrapper>
+                <div className="what-do">What do you want to learn?</div>
             </Container>
         </BannerWrapper>
     );

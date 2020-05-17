@@ -147,3 +147,22 @@ code {
   background-image: linear-gradient(to bottom,#eef9ff -10%,#ade1ff);
   width: 100%;
 }
+
+ .what-do{
+        font-family: 'Montserrat';
+        font-size: 32px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: 0.18px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+  @media screen and (max-width: 767px) {
+      .what-do{
+        display: none;
+      }
+       
+  }

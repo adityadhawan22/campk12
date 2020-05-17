@@ -46,72 +46,74 @@ const ReactSlick = () => {
       }
     ]
   };
-    return (
-        <div className="container">
+  return (
+    <>
+      <div className="container">
         <Slider {...settings}>
-        <CardWrap>
+          <CardWrap>
             <Card className="text-center">
-                <Card.Body>
-                    <SlideInner>
-                        <img className='Group-14' src={GroupIcon} alt="GroupIcon" />
-                        <Card.Text className='text-center'>
-                            Web <br/> development
+              <Card.Body>
+                <SlideInner>
+                  <img className='Group-14' src={GroupIcon} alt="GroupIcon" />
+                  <Card.Text className='text-center'>
+                    Web <br /> development
                         </Card.Text>
-                    </SlideInner>
-                </Card.Body>
-                </Card>
-          </CardWrap>
-        <CardWrap>
-            <Card className="text-center">
-                <Card.Body>
-                    <SlideInner>
-                        <img className='Group-14' src={Icon} alt="Icon" />
-                        <Card.Text className='text-center'>
-                            Mobile App <br/> Development
-                        </Card.Text>
-                    </SlideInner>
-                </Card.Body>
-                </Card>
+                </SlideInner>
+              </Card.Body>
+            </Card>
           </CardWrap>
           <CardWrap>
             <Card className="text-center">
-                <Card.Body>
-                    <SlideInner>
-                        <img className='Group-14' src={VrIcon} alt="Icon" />
-                        <Card.Text className='text-center'>
-                            Mixed Reality <br/> (AR/VR)
+              <Card.Body>
+                <SlideInner>
+                  <img className='Group-14' src={Icon} alt="Icon" />
+                  <Card.Text className='text-center'>
+                    Mobile App <br /> Development
                         </Card.Text>
-                    </SlideInner>
-                </Card.Body>
-                </Card>
+                </SlideInner>
+              </Card.Body>
+            </Card>
           </CardWrap>
           <CardWrap>
             <Card className="text-center">
-                <Card.Body>
-                    <SlideInner>
-                        <img className='Group-14' src={Group3Icon} alt="MRIcon" />
-                        <Card.Text className='text-center'>
-                            Machine <br/> Learning (AI)
+              <Card.Body>
+                <SlideInner>
+                  <img className='Group-14' src={VrIcon} alt="Icon" />
+                  <Card.Text className='text-center'>
+                    Mixed Reality <br /> (AR/VR)
                         </Card.Text>
-                    </SlideInner>
-                </Card.Body>
-                </Card>
+                </SlideInner>
+              </Card.Body>
+            </Card>
           </CardWrap>
           <CardWrap>
             <Card className="text-center">
-                <Card.Body>
-                    <SlideInner>
-                        <img className='Group-14' src={Group3Icon} alt="MRIcon" />
-                        <Card.Text className='text-center'>
-                            Machine <br/> Learning (AI)
+              <Card.Body>
+                <SlideInner>
+                  <img className='Group-14' src={Group3Icon} alt="MRIcon" />
+                  <Card.Text className='text-center'>
+                    Machine <br /> Learning (AI)
                         </Card.Text>
-                    </SlideInner>
-                </Card.Body>
-                </Card>
+                </SlideInner>
+              </Card.Body>
+            </Card>
+          </CardWrap>
+          <CardWrap>
+            <Card className="text-center">
+              <Card.Body>
+                <SlideInner>
+                  <img className='Group-14' src={Group3Icon} alt="MRIcon" />
+                  <Card.Text className='text-center'>
+                    Machine <br /> Learning (AI)
+                        </Card.Text>
+                </SlideInner>
+              </Card.Body>
+            </Card>
           </CardWrap>
         </Slider>
       </div>
-    )
+    </>
+  )
 }
 
 export default ReactSlick;

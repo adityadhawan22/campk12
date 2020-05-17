@@ -85,7 +85,8 @@ export const BannerWrapper = styled.div`
 `;
 
 export const PaddingWrapper = styled.div`
-    padding: 145px 0;
+    padding-top: 145px;
+    padding-bottom: 40px;
     @media screen and (max-width: 767px) {
         padding: 37px 0;
          
@@ -357,8 +358,7 @@ export const Footer = styled.div`
 export const CardWrap = styled.div`
     width: 208px;
     height: 228px;
-    outline: 0;
-   
+    outline: 0;   
     
     .SampleText {
         width: 160px;
@@ -394,6 +394,8 @@ export const SliderWrap = styled.div`
     }
     .slick-list{
         padding-bottom: 26px;
+        width: 90%;
+        margin: 0 auto;
     }
     .slick-slider {
         z-index:2;
@@ -405,7 +407,8 @@ export const SliderWrap = styled.div`
     .slick-slide {
         img {
             margin: 0 auto;
-            width:90px;
+            width: 108px;
+            margin-bottom: 16px;
         }
        
     }
@@ -671,6 +674,7 @@ export const SlideInner = styled.div`
     background:#ffffff;
     min-height:228px;
     padding: 23px 0;
+    border-radius: 4px;
     font-size: 19px;
     outline:0;
     transition: all .5s ease;
