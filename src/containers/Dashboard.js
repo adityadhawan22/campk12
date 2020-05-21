@@ -46,6 +46,7 @@ const Dashboard = () => {
                         <div className="rsTextCenter">
                             <Button className="Book" variant="primary">BOOK A FREE TRIAL</Button>
                         </div>
+                        <br/><br/><br/><br/><br/>
                     </PaddingWrapper>
                 </Container>
             </BannerWrapper>
