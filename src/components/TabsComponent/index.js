@@ -4,6 +4,8 @@ import Tab from 'react-bootstrap/Tab'
 import TabContainer from 'react-bootstrap/TabContainer'
 import HolderImg from '../../Assets/holder.png'
 import TimeIcon from '../../Assets/time.svg'
+import Users from '../../Assets/users.svg'
+import Grow from '../../Assets/growing.svg'
 import OffIcon from '../../Assets/off.png'
 import { FlexWrapper, FilterWrapper } from '../../Assets/style'
 import { TabsWrapper, RCardWrap } from '../../Assets/style'
@@ -31,7 +33,7 @@ const TabsComponent = () => {
             <Tab.Content>
                 <Tab.Pane eventKey="first">
                     <FilterWrapper>
-                      <p>Showing all courses for grades 1-4</p>
+                      <p>Showing <strong>All</strong> courses for <strong>Grades 1-4</strong></p>
                       <DropdownButton className="fliterDrop" id="dropdown-item-button" title="All Courses">
                         <Dropdown.Item as="button">Action</Dropdown.Item>
                         <Dropdown.Item as="button">Another action</Dropdown.Item>
@@ -54,9 +56,9 @@ const TabsComponent = () => {
 
                               <Card.Text>
                                 <ul className="sdetail">
-                                  <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
+                                  <li><span><img src={Grow} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
                                   <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>12 Hours</strong> over 6 Session</span></li>
-                                  <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
+                                  <li><span><img src={Users} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
                                 </ul>
                                 <div className="d-flex justify-content-between ">
                                   <span className="amt">₹ 9999 <strike>12000</strike></span>
@@ -81,9 +83,9 @@ const TabsComponent = () => {
 
                               <Card.Text>
                                 <ul className="sdetail">
-                                  <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
+                                  <li><span><img src={Grow} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
                                   <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>12 Hours</strong> over 6 Session</span></li>
-                                  <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
+                                  <li><span><img src={Users} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
                                 </ul>
                                 <div className="d-flex justify-content-between ">
                                   <span className="amt">₹ 9999 <strike>12000</strike></span>
@@ -108,9 +110,9 @@ const TabsComponent = () => {
 
                               <Card.Text>
                                 <ul className="sdetail">
-                                  <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
+                                  <li><span><img src={Grow} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
                                   <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>12 Hours</strong> over 6 Session</span></li>
-                                  <li><span><img src={TimeIcon} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
+                                  <li><span><img src={Users} alt="TimeIcon" /></span><span class="text-detail"><strong>5.6k</strong> Happy Student</span></li>
                                 </ul>
                                 <div className="d-flex justify-content-between ">
                                   <span className="amt">₹ 9999 <strike>12000</strike></span>

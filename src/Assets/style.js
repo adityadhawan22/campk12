@@ -217,7 +217,7 @@ export const Sqwrapper = styled.div`
       }
     
     .card-title {
-        font-size:17px;
+        font-size:18px;
         color: #1f2a55;
         text-align:left;
         border-bottom: solid 2px #e2ebef;
@@ -256,6 +256,8 @@ export const Sqwrapper = styled.div`
                     display:block;
                     color:#0bc29f;
                     padding: 5px 8px;
+                    font-weight: 500;
+                    letter-spacing: 0.2px;
                 }
             }
         }
@@ -273,6 +275,8 @@ export const Sqwrapper = styled.div`
                     display:block;
                     color:#f5bc1c;
                     padding: 5px 8px;
+                    font-weight: 500;
+                    letter-spacing: 0.2px;
                 }
                 img {
                     width: 25px;
@@ -560,7 +564,7 @@ export const FlexWrapper = styled.div`
         /* border: solid 1px #d8e4eb; */
         background-color: #ffffff;
         .nav-link  {
-            color: #69696a;
+            color: #1f2a55;
             padding: 10px 30px;
             @media screen and (max-width: 767px){
                 padding: 10px 9px;
@@ -624,6 +628,7 @@ export const RCardWrap = styled.div`
             span {
                 color:#353f66;
                 margin-left:5px;
+                font-weight: 600;
             }
         }
     }
@@ -635,8 +640,11 @@ export const RCardWrap = styled.div`
             font-size:14px;
         }
         li {
+            margin: 10px 0px;
             img {
                 margin-right:14px;
+                width: 18px;
+                height: 18px;
             }
         }
     }
@@ -646,11 +654,14 @@ export const RCardWrap = styled.div`
         }
         .amt {
             color:#1f2a55;
-            font-size:18px;
+            font-size:20px;
         }
         strike {
             color:#7c829b;
-            font-size:14px;
+            color: #7c829b;
+            font-size: 14px;
+            font-weight: 500;
+            font-size: 16px;
         }
     }
     .learnMore {
@@ -660,6 +671,7 @@ export const RCardWrap = styled.div`
         text-transform: uppercase;
         text-align: center;
         display: block;
+        font-size: 14px
     }
     .card-text {
         border-bottom:2px solid #ddd;
